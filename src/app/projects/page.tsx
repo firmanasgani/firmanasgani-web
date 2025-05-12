@@ -12,7 +12,7 @@ export default function Page() {
         {[1, 2, 3].map((card) => (
           <div
             key={card}
-            className="max-w-sm rounded overflow-hidden shadow-lg"
+            className="max-w-sm rounded overflow-hidden bg-white shadow-lg"
             style={{ height: "400px" }}
           >
             <Image
@@ -31,7 +31,7 @@ export default function Page() {
                   ? "Aplikasi Sistem Informasi Manajemen Asset Perusahaan"
                   : "Aplikasi ePassport"}
               </div>
-              <div>
+              <div >
                 <p className="text-gray-700 text-base">
                   {card === 1
                     ? "Menerima notifikasi lewat whatsapp Business. Monitoring dan melihat data secara real time"
